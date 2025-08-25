@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ImageCompress Pro | Optimize Your Images</title>
+    <meta name="description" content="Free online image compression tool. Reduce image file sizes without losing quality. Support for JPG, PNG, and WebP formats.">
+    <meta name="keywords" content="image compression, compress images, optimize images, reduce image size, image optimizer">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_ADSENSE_ID" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * {
@@ -484,6 +487,11 @@
             border-radius: 12px;
             padding: 25px;
             background: rgba(255, 255, 255, 0.05);
+            min-height: 280px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
         
         .ad-label {
@@ -562,26 +570,37 @@
             color: white;
         }
         
-        /* Animation for compression process */
-        @keyframes compress {
-            0% { transform: scale(1); }
-            50% { transform: scale(0.95); }
-            100% { transform: scale(1); }
+        /* Ad spaces in content */
+        .ad-in-content {
+            margin: 40px 0;
+            text-align: center;
         }
         
-        .compressing {
-            animation: compress 1s infinite;
+        .ad-wide {
+            width: 100%;
+            min-height: 90px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px dashed rgba(255, 255, 255, 0.2);
+            margin: 30px 0;
         }
         
-        /* Pulse animation for upload area */
-        @keyframes pulse {
-            0% { box-shadow: 0 0 0 0 rgba(76, 201, 240, 0.4); }
-            70% { box-shadow: 0 0 0 15px rgba(76, 201, 240, 0); }
-            100% { box-shadow: 0 0 0 0 rgba(76, 201, 240, 0); }
-        }
-        
-        .pulse {
-            animation: pulse 2s infinite;
+        /* Responsive ads */
+        @media (max-width: 768px) {
+            .ad-container {
+                min-height: 200px;
+            }
+            
+            .ad-placeholder {
+                height: 150px;
+            }
+            
+            .ad-wide {
+                min-height: 70px;
+            }
         }
     </style>
 </head>
@@ -612,6 +631,26 @@
         
         <div class="content">
             <div class="main-content">
+                <!-- Top Ad Banner -->
+                <div class="ad-in-content">
+                    <div class="ad-label">Advertisement</div>
+                    <div class="ad-wide">
+                        <!-- AdSense Ad Unit for Banner -->
+                        <ins class="adsbygoogle"
+                             style="display:block"
+                             data-ad-client="<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3196265639258501"
+     crossorigin="anonymous"></script>"
+                             data-ad-slot="<script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+</script>"
+                             data-ad-format="auto"
+                             data-full-width-responsive="true"></ins>
+                        <script>
+                             (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                    </div>
+                </div>
+                
                 <div class="compression-tool">
                     <h2>Image Compression Tool</h2>
                     <p>Reduce image file size without sacrificing quality. Supports JPG, PNG, and WebP formats.</p>
@@ -693,22 +732,55 @@
                         </div>
                     </div>
                 </div>
+                
+                <!-- Middle Ad Banner -->
+                <div class="ad-in-content">
+                    <div class="ad-label">Advertisement</div>
+                    <div class="ad-wide">
+                        <!-- AdSense Ad Unit for Banner -->
+                        <ins class="adsbygoogle"
+                             style="display:block"
+                             data-ad-client="ca-pub-YOUR_ADSENSE_ID"
+                             data-ad-slot="YOUR_BANNER_SLOT_ID"
+                             data-ad-format="auto"
+                             data-full-width-responsive="true"></ins>
+                        <script>
+                             (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                    </div>
+                </div>
             </div>
             
             <div class="sidebar">
                 <div class="ad-container">
                     <span class="ad-label">Advertisement</span>
                     <div class="ad-placeholder">
-                        <i class="fas fa-ad" style="font-size: 2rem; margin-right: 10px;"></i>
-                        Ad Space (300x250)
+                        <!-- AdSense Ad Unit for Square -->
+                        <ins class="adsbygoogle"
+                             style="display:block"
+                             data-ad-client="ca-pub-YOUR_ADSENSE_ID"
+                             data-ad-slot="YOUR_SQUARE_SLOT_ID"
+                             data-ad-format="auto"
+                             data-full-width-responsive="true"></ins>
+                        <script>
+                             (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
                     </div>
                 </div>
                 
                 <div class="ad-container">
                     <span class="ad-label">Advertisement</span>
                     <div class="ad-placeholder">
-                        <i class="fas fa-ad" style="font-size: 2rem; margin-right: 10px;"></i>
-                        Ad Space (300x600)
+                        <!-- AdSense Ad Unit for Rectangle -->
+                        <ins class="adsbygoogle"
+                             style="display:block"
+                             data-ad-client="ca-pub-YOUR_ADSENSE_ID"
+                             data-ad-slot="YOUR_RECTANGLE_SLOT_ID"
+                             data-ad-format="auto"
+                             data-full-width-responsive="true"></ins>
+                        <script>
+                             (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
                     </div>
                 </div>
                 
@@ -722,6 +794,23 @@
                         <li>Compress images before sending via email</li>
                     </ul>
                 </div>
+            </div>
+        </div>
+        
+        <!-- Bottom Ad Banner -->
+        <div class="ad-in-content">
+            <div class="ad-label">Advertisement</div>
+            <div class="ad-wide">
+                <!-- AdSense Ad Unit for Banner -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-YOUR_ADSENSE_ID"
+                     data-ad-slot="YOUR_BANNER_SLOT_ID"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                     (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
             </div>
         </div>
         
@@ -778,18 +867,15 @@
             uploadArea.addEventListener('dragover', function(e) {
                 e.preventDefault();
                 this.classList.add('active');
-                this.classList.add('pulse');
             });
             
             uploadArea.addEventListener('dragleave', function() {
                 this.classList.remove('active');
-                this.classList.remove('pulse');
             });
             
             uploadArea.addEventListener('drop', function(e) {
                 e.preventDefault();
                 this.classList.remove('active');
-                this.classList.remove('pulse');
                 
                 if (e.dataTransfer.files.length) {
                     handleFile(e.dataTransfer.files[0]);
