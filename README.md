@@ -638,8 +638,7 @@
                         <!-- AdSense Ad Unit for Banner -->
                         <ins class="adsbygoogle"
                              style="display:block"
-                             data-ad-client="<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3196265639258501"
-     crossorigin="anonymous"></script>"
+                             data-ad-client="ca-pub-YOUR_ADSENSE_ID"
                              data-ad-slot="YOUR_BANNER_SLOT_ID"
                              data-ad-format="auto"
                              data-full-width-responsive="true"></ins>
@@ -738,10 +737,8 @@
                         <!-- AdSense Ad Unit for Banner -->
                         <ins class="adsbygoogle"
                              style="display:block"
-                             data-ad-client="<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3196265639258501"
-     crossorigin="anonymous"></script>"
-                             data-ad-slot="<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3196265639258501"
-     crossorigin="anonymous"></script>"
+                             data-ad-client="ca-pub-YOUR_ADSENSE_ID"
+                             data-ad-slot="YOUR_BANNER_SLOT_ID"
                              data-ad-format="auto"
                              data-full-width-responsive="true"></ins>
                         <script>
@@ -758,11 +755,7 @@
                         <!-- AdSense Ad Unit for Square -->
                         <ins class="adsbygoogle"
                              style="display:block"
-                             data-ad-client="<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3196265639258501"
-     crossorigin="anonymous"></script>"
-                             
-                        
-                    
+                             data-ad-client="ca-pub-YOUR_ADSENSE_ID"
                              data-ad-slot="YOUR_SQUARE_SLOT_ID"
                              data-ad-format="auto"
                              data-full-width-responsive="true"></ins>
